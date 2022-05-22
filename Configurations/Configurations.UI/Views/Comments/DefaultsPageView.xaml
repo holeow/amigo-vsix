@@ -3,7 +3,7 @@
    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
    xmlns:converters="clr-namespace:Configurations.UI.Converters"
-   xmlns:cp="clr-namespace:WPF.Controls.ColorPicker;assembly=WPF.Controls.ColorPicker"
+   
    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
    xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
@@ -73,6 +73,7 @@
             Padding="0">
             Foreground
          </Label>
+          <!--
          <cp:ColorPicker
             x:Name="foregroundColorPicker"
             Width="210"
@@ -86,7 +87,7 @@
             Value="{Binding Foreground,
                             Mode=TwoWay,
                             FallbackValue=Black}" />
-
+-->
       </StackPanel>
 
       <!--! Background-->
@@ -99,6 +100,7 @@
             Padding="0">
             Background
          </Label>
+          <!--
          <cp:ColorPicker
             x:Name="backgroundColorPicker"
             Width="210"
@@ -114,6 +116,7 @@
             Value="{Binding Background,
                             Mode=TwoWay,
                             FallbackValue=Black}" />
+          -->
 
          <CheckBox
             Margin="0,5,0,0"
